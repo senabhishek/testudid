@@ -483,6 +483,7 @@
 				INFOPLIST_FILE = TestUDID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Abhi/Documents/Learning/Courses/Delft/Thesis Local/Software/App/TestUDID/TestUDID/TestUDID-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -499,6 +500,7 @@
 				INFOPLIST_FILE = TestUDID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Abhi/Documents/Learning/Courses/Delft/Thesis Local/Software/App/TestUDID/TestUDID/TestUDID-Bridging-Header.h";
 			};
 			name = Release;
 		};

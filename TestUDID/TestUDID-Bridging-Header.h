@@ -9,6 +9,6 @@
 #ifndef TestUDID_TestUDID_Bridging_Header_h
 #define TestUDID_TestUDID_Bridging_Header_h
 
-#import "SDVersion.h"
+#import <SDVersion/SDVersion.h>
 
 #endif
