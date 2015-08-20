@@ -86,9 +86,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
     self.testerObjectID = self.emailTextField.text
     if let testObjectID = self.allObjectIDs.filter({$0 == self.testerObjectID}).first {
       JLToast.makeText("You're already registered. Thanks!", duration: JLToastDelay.ShortDelay).show()
+      clearTextFields()
     } else {
       self.createNewUserObject()
     }
+  }
+  
+  func clearTextFields() {
+    self.emailTextField.text = ""
+    self.firstNameTextField.text = ""
+    self.lastnameTextField.text = ""
   }
   
   func createNewUserObject() {
@@ -106,6 +113,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let defaults = NSUserDefaults.standardUserDefaults()
         defaults.setObject(self.allObjectIDs, forKey: self.testerObjectIDKey)
         defaults.synchronize()
+        self.clearTextFields()
       } else {
         toastText = "Unfortunately there was an error. Please try submitting the form again."
       }
