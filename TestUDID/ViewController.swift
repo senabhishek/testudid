@@ -57,19 +57,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     // Dispose of any resources that can be recreated.
   }
   
-  func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-    if textField != self.emailTextField {
-      if textField.text.isEmpty {
-        textField.text = textField.text.stringByAppendingString(string).uppercaseString
-      } else {
-        textField.text = textField.text.stringByAppendingString(string)
-      }
-    } else {
-      textField.text = textField.text.stringByAppendingString(string)
-    }
-    return false
-  }
-  
   func textFieldShouldReturn(textField: UITextField) -> Bool {
     textField.resignFirstResponder()
     return true
