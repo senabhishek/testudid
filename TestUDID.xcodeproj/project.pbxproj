@@ -13,6 +13,21 @@
 		38B58ACC1B8555C400D6CD92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B58ACB1B8555C400D6CD92 /* Images.xcassets */; };
 		38B58ACF1B8555C400D6CD92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38B58ACD1B8555C400D6CD92 /* LaunchScreen.xib */; };
 		38B58ADB1B8555C400D6CD92 /* TestUDIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B58ADA1B8555C400D6CD92 /* TestUDIDTests.swift */; };
+		38B58AE61B855CBD00D6CD92 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AE41B855CBD00D6CD92 /* Bolts.framework */; };
+		38B58AE71B855CBD00D6CD92 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AE51B855CBD00D6CD92 /* Parse.framework */; };
+		38B58AF41B855D4F00D6CD92 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AE81B855D4F00D6CD92 /* Accounts.framework */; };
+		38B58AF51B855D4F00D6CD92 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AE91B855D4F00D6CD92 /* AudioToolbox.framework */; };
+		38B58AF61B855D4F00D6CD92 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AEA1B855D4F00D6CD92 /* CFNetwork.framework */; };
+		38B58AF71B855D4F00D6CD92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AEB1B855D4F00D6CD92 /* CoreGraphics.framework */; };
+		38B58AF81B855D4F00D6CD92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AEC1B855D4F00D6CD92 /* CoreLocation.framework */; };
+		38B58AF91B855D4F00D6CD92 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AED1B855D4F00D6CD92 /* libsqlite3.dylib */; };
+		38B58AFA1B855D4F00D6CD92 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AEE1B855D4F00D6CD92 /* libz.dylib */; };
+		38B58AFB1B855D4F00D6CD92 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AEF1B855D4F00D6CD92 /* QuartzCore.framework */; };
+		38B58AFC1B855D4F00D6CD92 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AF01B855D4F00D6CD92 /* Security.framework */; };
+		38B58AFD1B855D4F00D6CD92 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AF11B855D4F00D6CD92 /* Social.framework */; };
+		38B58AFE1B855D4F00D6CD92 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AF21B855D4F00D6CD92 /* StoreKit.framework */; };
+		38B58AFF1B855D4F00D6CD92 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B58AF31B855D4F00D6CD92 /* SystemConfiguration.framework */; };
+		3E3F2F3972F3240038948BEA /* Pods_TestUDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F4EABC692A43403B4E4F80 /* Pods_TestUDID.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,24 @@
 		38B58AD41B8555C400D6CD92 /* TestUDIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUDIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B58AD91B8555C400D6CD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38B58ADA1B8555C400D6CD92 /* TestUDIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUDIDTests.swift; sourceTree = "<group>"; };
+		38B58AE41B855CBD00D6CD92 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		38B58AE51B855CBD00D6CD92 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		38B58AE81B855D4F00D6CD92 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		38B58AE91B855D4F00D6CD92 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		38B58AEA1B855D4F00D6CD92 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		38B58AEB1B855D4F00D6CD92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38B58AEC1B855D4F00D6CD92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		38B58AED1B855D4F00D6CD92 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		38B58AEE1B855D4F00D6CD92 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		38B58AEF1B855D4F00D6CD92 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		38B58AF01B855D4F00D6CD92 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		38B58AF11B855D4F00D6CD92 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		38B58AF21B855D4F00D6CD92 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		38B58AF31B855D4F00D6CD92 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		38B58B171B85D43500D6CD92 /* TestUDID-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestUDID-Bridging-Header.h"; sourceTree = "<group>"; };
+		550E63C71A249CA4B54DFFAB /* Pods-TestUDID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUDID.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestUDID/Pods-TestUDID.release.xcconfig"; sourceTree = "<group>"; };
+		6FCFCEAC986AF955BBFFD9FA /* Pods-TestUDID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUDID.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestUDID/Pods-TestUDID.debug.xcconfig"; sourceTree = "<group>"; };
+		F6F4EABC692A43403B4E4F80 /* Pods_TestUDID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestUDID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +76,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B58AF41B855D4F00D6CD92 /* Accounts.framework in Frameworks */,
+				38B58AF51B855D4F00D6CD92 /* AudioToolbox.framework in Frameworks */,
+				38B58AF61B855D4F00D6CD92 /* CFNetwork.framework in Frameworks */,
+				38B58AF71B855D4F00D6CD92 /* CoreGraphics.framework in Frameworks */,
+				38B58AF81B855D4F00D6CD92 /* CoreLocation.framework in Frameworks */,
+				38B58AF91B855D4F00D6CD92 /* libsqlite3.dylib in Frameworks */,
+				38B58AFA1B855D4F00D6CD92 /* libz.dylib in Frameworks */,
+				38B58AFB1B855D4F00D6CD92 /* QuartzCore.framework in Frameworks */,
+				38B58AFC1B855D4F00D6CD92 /* Security.framework in Frameworks */,
+				38B58AFD1B855D4F00D6CD92 /* Social.framework in Frameworks */,
+				38B58AFE1B855D4F00D6CD92 /* StoreKit.framework in Frameworks */,
+				38B58AFF1B855D4F00D6CD92 /* SystemConfiguration.framework in Frameworks */,
+				38B58AE71B855CBD00D6CD92 /* Parse.framework in Frameworks */,
+				38B58AE61B855CBD00D6CD92 /* Bolts.framework in Frameworks */,
+				3E3F2F3972F3240038948BEA /* Pods_TestUDID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +104,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35586ADD68A8D54906976CEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FCFCEAC986AF955BBFFD9FA /* Pods-TestUDID.debug.xcconfig */,
+				550E63C71A249CA4B54DFFAB /* Pods-TestUDID.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		38B58AB61B8555C300D6CD92 = {
 			isa = PBXGroup;
 			children = (
 				38B58AC11B8555C300D6CD92 /* TestUDID */,
 				38B58AD71B8555C400D6CD92 /* TestUDIDTests */,
 				38B58AC01B8555C300D6CD92 /* Products */,
+				38B58B001B855D8600D6CD92 /* Frameworks */,
+				35586ADD68A8D54906976CEC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +138,7 @@
 			children = (
 				38B58AC41B8555C400D6CD92 /* AppDelegate.swift */,
 				38B58AC61B8555C400D6CD92 /* ViewController.swift */,
+				38B58B171B85D43500D6CD92 /* TestUDID-Bridging-Header.h */,
 				38B58AC81B8555C400D6CD92 /* Main.storyboard */,
 				38B58ACB1B8555C400D6CD92 /* Images.xcassets */,
 				38B58ACD1B8555C400D6CD92 /* LaunchScreen.xib */,
@@ -112,6 +172,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		38B58B001B855D8600D6CD92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38B58AE81B855D4F00D6CD92 /* Accounts.framework */,
+				38B58AE91B855D4F00D6CD92 /* AudioToolbox.framework */,
+				38B58AEA1B855D4F00D6CD92 /* CFNetwork.framework */,
+				38B58AEB1B855D4F00D6CD92 /* CoreGraphics.framework */,
+				38B58AEC1B855D4F00D6CD92 /* CoreLocation.framework */,
+				38B58AED1B855D4F00D6CD92 /* libsqlite3.dylib */,
+				38B58AEE1B855D4F00D6CD92 /* libz.dylib */,
+				38B58AEF1B855D4F00D6CD92 /* QuartzCore.framework */,
+				38B58AF01B855D4F00D6CD92 /* Security.framework */,
+				38B58AF11B855D4F00D6CD92 /* Social.framework */,
+				38B58AF21B855D4F00D6CD92 /* StoreKit.framework */,
+				38B58AF31B855D4F00D6CD92 /* SystemConfiguration.framework */,
+				38B58AE41B855CBD00D6CD92 /* Bolts.framework */,
+				38B58AE51B855CBD00D6CD92 /* Parse.framework */,
+				F6F4EABC692A43403B4E4F80 /* Pods_TestUDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38B58ADE1B8555C400D6CD92 /* Build configuration list for PBXNativeTarget "TestUDID" */;
 			buildPhases = (
+				FFC736452989A76D265D9BD7 /* Check Pods Manifest.lock */,
 				38B58ABB1B8555C300D6CD92 /* Sources */,
 				38B58ABC1B8555C300D6CD92 /* Frameworks */,
 				38B58ABD1B8555C300D6CD92 /* Resources */,
+				98CCB92A445976B4109D3054 /* Embed Pods Frameworks */,
+				7EFF4935765B1DA142E0245A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +246,7 @@
 				TargetAttributes = {
 					38B58ABE1B8555C300D6CD92 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = JTSFFH6DL8;
 					};
 					38B58AD31B8555C400D6CD92 = {
 						CreatedOnToolsVersion = 6.4;
@@ -206,6 +292,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EFF4935765B1DA142E0245A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestUDID/Pods-TestUDID-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98CCB92A445976B4109D3054 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestUDID/Pods-TestUDID-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC736452989A76D265D9BD7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38B58ABB1B8555C300D6CD92 /* Sources */ = {
@@ -338,8 +472,14 @@
 		};
 		38B58ADF1B8555C400D6CD92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCFCEAC986AF955BBFFD9FA /* Pods-TestUDID.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestUDID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,8 +488,14 @@
 		};
 		38B58AE01B8555C400D6CD92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 550E63C71A249CA4B54DFFAB /* Pods-TestUDID.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestUDID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +555,7 @@
 				38B58AE01B8555C400D6CD92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38B58AE11B8555C400D6CD92 /* Build configuration list for PBXNativeTarget "TestUDIDTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +564,7 @@
 				38B58AE31B8555C400D6CD92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
